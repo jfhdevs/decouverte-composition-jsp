@@ -11,29 +11,15 @@
     </head>
     <body>
         <div id="bodyWrapper">
-            <div id="header">
-                Mon site web structuré
-            </div>
-            <div id="navigation">
-                <a href="home.do">Accueil</a>
-                <a href="theme1.do">Thème 1</a>
-                <a href="theme2.do">Thème 2</a>
-            </div>
+			<%@include file="WEB-INF/fragments/header.jspf" %>
+			<%@include file="WEB-INF/fragments/navigationbar.jspf" %>
             <div id="pageBody">
-                <div id="sidebar">
-                    <a href="#">Contact</a><br/>
-                    <a href="#">Twitter</a><br/>
-                    <a href="#">LinkedIn</a><br/>
-                    <a href="#">Facebook</a><br/>
-                    <a href="#">A propos</a>
-                </div>
-                <div id="content">
+ 			<%@include file="WEB-INF/fragments/sidebar.jspf" %>
+                 <div id="content">
                     Ceci est ma page d'accueil
                 </div>
             </div>
-            <div id="footer">
-                Copyright 2017 - Simplon pour Pôle Emploi
-            </div>
+			<%@include file="WEB-INF/fragments/footer.jspf" %>
         </div>
     </body>
 </html>
