@@ -1,0 +1,5 @@
+<div id="footer">
+	<a href="home.do">Accueil</a>
+	<a href="theme1.do">Thème 1</a>
+	<a href="theme2.do">Thème 2</a>
+</div>

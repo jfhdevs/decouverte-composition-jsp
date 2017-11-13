@@ -4,22 +4,11 @@
 
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Description de la page 2">
-        <title>Thème 2</title>
-        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <title>Ma page thème 2</title>
     </head>
     <body>
-        <div id="bodyWrapper">
-			<%@include file="../fragments/header.jspf" %>
-			<%@include file="../fragments/navigationbar.jspf" %>
-            <div id="pageBody">
- 				<%@include file="../fragments/sidebar.jspf" %>
-                <div id="content">
-                    La page du thème 2
-                </div>
-            </div>
-			<%@include file="../fragments/footer.jspf" %>
-        </div>
+		<div id="content">
+			 La page du thème 2
+		</div>
     </body>
 </html>
